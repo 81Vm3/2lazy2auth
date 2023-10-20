@@ -170,7 +170,7 @@ def periodicCheck():
         elif auth_fail:
             print(f"---> 重新接入到校园网 ({datetime.datetime.now()})")
             auth_fail = False
-        time.sleep(profile.heartbeat)
+        time.sleep(m_profile.heartbeat)
 
 def main():
     try:
